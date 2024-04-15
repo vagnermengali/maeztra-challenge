@@ -10,7 +10,7 @@ const Collection = () => {
                     <h4 className="text-brand2 text-2xl leading-9 font-bold">Out/Inverno</h4>
                     <p className="text-brand2 text-sm leading-5 font-normal">Descubra o charme do inverno com nossa nova coleção. Dos casacos de lã aos elegantes sobretudos, cada peça é uma mistura perfeita de estilo e conforto. Nossos suéteres de cashmere oferecem calor e luxo, enquanto os cachecóis de lã merino complementam qualquer look. Para um toque de elegância, experimente nossas luvas de couro e chapéus de feltro. Não se esqueça das botas de camurça para completar o visual. Aproveite o inverno com nossa coleção, onde moda e funcionalidade se encontram!</p>
                 </div>
-                <Link href="/outono-inverno" aria-label="Ir para a coleção outono-inverno">
+                <Link href="/" aria-label="Ir para a coleção outono-inverno">
                     <Image className="w-[1114px] rounded lg:rounded-none" src="/assets/images/second-banner.png" width="1114" height="480" alt="Nova coleção de outono-inverno" />
                 </Link>
             </div>

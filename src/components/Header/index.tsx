@@ -123,11 +123,9 @@ const Header = () => {
                                 </div>
                             )}
                         </div>
-                        <button className="hidden lg:block">
-                            <Link className="flex items-center justify-center gap-2 text-sm text-brand4 leading-5 font-normal w-[134px] h-[46px]" href="/account#/wishlist" aria-label="Ir para a página dos meus favoritos">
-                                <FaRegHeart />   Favoritos
-                            </Link>
-                        </button>
+                        <Link className="hidden lg:flex items-center justify-center gap-2 text-sm text-brand4 leading-5 font-normal w-[134px] h-[46px]" href="/" aria-label="Ir para a página dos meus favoritos">
+                            <FaRegHeart />   Favoritos
+                        </Link>
                         <button className="flex items-center justify-center gap-2 w-8 h-8 lg:w-[134px] lg:h-[46px] lg:border-2 lg:border-solid lg:border-brand1 lg:rounded-lg" aria-label="Abrir carrinho" onClick={handleMinicart}><LiaShoppingBagSolid className="w-8 h-8 lg:w-auto lg:h-auto" /><p className="hidden lg:block text-sm text-brand4 leading-5 font-normal">Meu Carrinho</p></button>
                     </div>
                 </div>

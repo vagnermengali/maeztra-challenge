@@ -53,10 +53,10 @@ const Menu = ({ isMenu, handleMenu }: { isMenu: boolean, handleMenu: () => void 
                 <div className="relative flex flex-col h-full pt-[94px] pb-[72px]">
                     <div className="absolute right-0 py-6 bg-brand1 px-4 top-0 flex justify-between w-full border-b-2 border-solid border-brand8 pb-3">
                         <div className="flex flex-col gap-4">
-                            <Link className="flex items-center gap-2 text-brand10 font-semibold text-sm" href="/login" aria-label="Ir para a página de login" onClick={handleMenu}>
+                            <Link className="flex items-center gap-2 text-brand10 font-semibold text-sm" href="/" aria-label="Ir para a página de login" onClick={handleMenu}>
                                 <FaRegUser /> Login/Register
                             </Link>
-                            <Link className="flex items-center gap-2 text-brand10 font-semibold text-sm" href="/account#/wishlist" aria-label="Ir para a página dos meus favoritos" onClick={handleMenu}>
+                            <Link className="flex items-center gap-2 text-brand10 font-semibold text-sm" href="/" aria-label="Ir para a página dos meus favoritos" onClick={handleMenu}>
                                 <FaRegHeart /> Favoritos
                             </Link>
                         </div>
@@ -79,14 +79,14 @@ const Menu = ({ isMenu, handleMenu }: { isMenu: boolean, handleMenu: () => void 
                             </ul>
                         </div>
                     ))}
-                    <Link href="/outlet" className="text-brand4 w-full py-4 px-4 border-b-[1px] border-solid border-brand8 bg-brand10 hover:brightness-95 transition-all duration-500 ease-in-out leading-5 text-base font-bold" aria-label="Ir para a categoria de Outlet" title="Outlet">
+                    <Link href="/" className="text-brand4 w-full py-4 px-4 border-b-[1px] border-solid border-brand8 bg-brand10 hover:brightness-95 transition-all duration-500 ease-in-out leading-5 text-base font-bold" aria-label="Ir para a categoria de Outlet" title="Outlet">
                         OUTLET
                     </Link>
-                    <Link href="/novidades" className="text-brand1 w-full py-4 px-4 border-b-[1px] border-solid border-brand8 bg-brand10 hover:brightness-95 transition-all duration-500 ease-in-out leading-5 text-base font-bold" aria-label="Ir para a categoria de novidades" title="Novidades">
+                    <Link href="/" className="text-brand1 w-full py-4 px-4 border-b-[1px] border-solid border-brand8 bg-brand10 hover:brightness-95 transition-all duration-500 ease-in-out leading-5 text-base font-bold" aria-label="Ir para a categoria de novidades" title="Novidades">
                         Novidades
                     </Link>
                     <div className="absolute bottom-0 left-0 py-6 px-7 bg-brand9 w-full">
-                        <Link className="flex flex-row items-center gap-2 text-brand4 font-semibold text-base" href="/institucional/fale-conosco" aria-label="Ir para a página fale conosco" title="Fale conosco" onClick={handleMenu}>
+                        <Link className="flex flex-row items-center gap-2 text-brand4 font-semibold text-base" href="/" aria-label="Ir para a página fale conosco" title="Fale conosco" onClick={handleMenu}>
                             <TbMessageCircle2Filled className="w-6 h-6" />  Fale conosco
                         </Link>
                     </div>

@@ -59,22 +59,22 @@ const Footer = () => {
                             </div>
                             <ul className={`flex flex-col gap-4 md:gap-6 ${infoMenuOpen ? 'block' : !isMobile ? 'flex' : 'hidden'}`}>
                                 <li>
-                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/institucional/quem-somos" aria-label="Ir para a página de quem somos" title="Quem somos">
+                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/" aria-label="Ir para a página de quem somos" title="Quem somos">
                                         Quem somos
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/institucional/prazo-de-envio" aria-label="Ir para a página de prazo de envio" title="Prazo de envio">
+                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/" aria-label="Ir para a página de prazo de envio" title="Prazo de envio">
                                         Prazo de Envio
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/institucional/troca-e-devolucoes" aria-label="Ir para a página de troca e devoluções" title="Troca e devoluções">
+                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/" aria-label="Ir para a página de troca e devoluções" title="Troca e devoluções">
                                         Troca e Devoluções
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/institucional/promocoes-e-cupons" aria-label="Ir para a página promoções e cupons" title="Promoções e cupons">
+                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/" aria-label="Ir para a página promoções e cupons" title="Promoções e cupons">
                                         Promoções e Cupons
                                     </Link>
                                 </li>
@@ -87,17 +87,17 @@ const Footer = () => {
                             </div>
                             <ul className={`flex flex-col gap-4 md:gap-6 ${accountMenuOpen ? 'block' : !isMobile ? 'flex' : 'hidden'}`}>
                                 <li>
-                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/account" aria-label="Ir para minha conta" title="Minha conta">
+                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/" aria-label="Ir para minha conta" title="Minha conta">
                                         Minha Conta
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/account#/orders" aria-label="Ir para a página dos meus pedidos" title="Meus pedidos">
+                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/" aria-label="Ir para a página dos meus pedidos" title="Meus pedidos">
                                         Meus Pedidos
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/login" aria-label="Ir para a página de cadastro" title="Cadastre-se">
+                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/" aria-label="Ir para a página de cadastro" title="Cadastre-se">
                                         Cadastre-se
                                     </Link>
                                 </li>
@@ -110,12 +110,12 @@ const Footer = () => {
                             </div>
                             <ul className={`flex flex-col gap-4 md:gap-6 ${locationMenuOpen ? 'block' : !isMobile ? 'flex' : 'hidden'}`}>
                                 <li>
-                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/institucional/nossas-lojas" aria-label="Ir para a página de nossas lojas" title="Lojas">
+                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/" aria-label="Ir para a página de nossas lojas" title="Lojas">
                                         Lojas
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/institucional/endereco" aria-label="Ir para a página de endereços" title="Endereço">
+                                    <Link className="text-bran4 text-xs leading-[18px] font-normal" href="/" aria-label="Ir para a página de endereços" title="Endereço">
                                         Endereço
                                     </Link>
                                 </li>
