@@ -67,7 +67,7 @@ const PopUp = () => {
                                     :
                                     <>
                                         <CiMail className="w-7 h-7 mb-3" />
-                                        <span className="text-brand6 text-xs font-normal mb-3">Bem vinda à Maeztra</span>
+                                        <span className="text-brand6 text-xs font-normal mb-3 uppercase">Bem vinda à Maeztra</span>
                                         <p className="text-brand6 text-base md:text-xl leading-6 font-normal text-center mb-[26px] px-3 md:px-0">Receba em Primeira mão <span className="text-brand6 text-base md:text-xl leading-6 font-bold">desconto e ofertas exclusivas</span></p>
                                         <form className="flex flex-col items-center gap-[12px] md:gap-[10px] w-full" onSubmit={handleSubmit}>
                                             <input
