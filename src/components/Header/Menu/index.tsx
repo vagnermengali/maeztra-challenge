@@ -26,6 +26,14 @@ const Menu = ({ isMenu, handleMenu }: { isMenu: boolean, handleMenu: () => void 
         setMenus(MenuLink);
     }, []);
 
+    useEffect(() => {
+        if (isMenu && isMobile) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+    }, [isMenu, isMobile]);
+
     const toggleMenu = (index: number) => {
         const updatedMenus = menus.map((menu, i) => {
             if (index === i) {
@@ -43,16 +51,16 @@ const Menu = ({ isMenu, handleMenu }: { isMenu: boolean, handleMenu: () => void 
             <div className={`${!isMobile ? 'hidden' : isMenu ? 'block' : 'hidden'} fixed inset-0 bg-brand3 z-40 transition-all duration-500 ease-in-out`} onClick={handleMenu}></div>
             <div className={` ${!isMobile ? 'hidden' : isMenu ? 'animate-menu-in' : 'hidden'} fixed top-0 bottom-0 left-0 z-50 bg-brand10 w-80 md:w-96`}>
                 <div className="relative flex flex-col h-full pt-[94px] pb-[72px]">
-                    <div className="absolute right-0 py-6 px-4 top-0 flex justify-between w-full border-b-2 border-solid border-brand8 pb-3">
-                        <div className="flex flex-col gap-4 ">
-                            <Link className="flex items-center gap-2 text-brand4 font-semibold text-sm" href="/login" aria-label="Ir para a página de login" onClick={handleMenu}>
+                    <div className="absolute right-0 py-6 bg-brand1 px-4 top-0 flex justify-between w-full border-b-2 border-solid border-brand8 pb-3">
+                        <div className="flex flex-col gap-4">
+                            <Link className="flex items-center gap-2 text-brand10 font-semibold text-sm" href="/login" aria-label="Ir para a página de login" onClick={handleMenu}>
                                 <FaRegUser /> Login/Register
                             </Link>
-                            <Link className="flex items-center gap-2 text-brand4 font-semibold text-sm" href="/account#/wishlist" aria-label="Ir para a página dos meus favoritos" onClick={handleMenu}>
+                            <Link className="flex items-center gap-2 text-brand10 font-semibold text-sm" href="/account#/wishlist" aria-label="Ir para a página dos meus favoritos" onClick={handleMenu}>
                                 <FaRegHeart /> Favoritos
                             </Link>
                         </div>
-                        <FaTimes className="text-brand4 w-5 h-5 cursor-pointer " onClick={handleMenu} />
+                        <FaTimes className="text-brand10 w-5 h-5 cursor-pointer " onClick={handleMenu} />
                     </div>
                     {menus.map((menu, index) => (
                         <div key={index} className="flex flex-col">

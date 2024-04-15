@@ -1,7 +1,16 @@
+import { useEffect } from "react";
 import { FaTimes, FaTimesCircle } from "react-icons/fa";
 import { LiaShoppingBagSolid } from "react-icons/lia";
 
-const Minicart = ({ isMinicart, handleMinicart }: { isMinicart: boolean, handleMinicart : () => void }) => {
+const Minicart = ({ isMinicart, handleMinicart }: { isMinicart: boolean, handleMinicart: () => void }) => {
+
+    useEffect(() => {
+        if (isMinicart) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+    }, [isMinicart]);
 
     return (
         <>

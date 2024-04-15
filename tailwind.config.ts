@@ -37,6 +37,7 @@ const config: Config = {
         brand8: '#EFEFEF',
         brand9: '#FAFAFA',
         brand10: '#FFFFFF',
+        brand11: '#C4C4C4',
       },
       boxShadow: {
         'effect1': '0px 4px 6px 0px #00000014',
