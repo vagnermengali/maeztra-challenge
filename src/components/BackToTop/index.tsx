@@ -6,7 +6,7 @@ const BackToButton = () => {
 
     useEffect(() => {
         function handleScroll() {
-            if (window.scrollY > 1250) {
+            if (window.scrollY > 250) {
                 setShowButton(true);
             } else {
                 setShowButton(false);
@@ -29,11 +29,11 @@ const BackToButton = () => {
 
     return (
         <button
-            className={`${showButton ? "flex" : "hidden"} bg-brand1 hover:bg-brand1/70 fixed items-center justify-center w-8 h-8 bottom-5 right-5 rounded-full z-30 m-0 p-0 transition-all duration-500 ease-in-out`}
+            className={`${showButton ? "flex" : "hidden"} bg-brand1 group fixed items-center justify-center w-8 h-8 bottom-5 right-5 rounded-full z-30 m-0 p-0 transition-all duration-500 ease-in-out`}
             onClick={handleScrollToTop}
             aria-label="Voltar ao topo"
         >
-            <FaAngleUp className="text-brand10" />
+            <FaAngleUp className="text-brand10 group-hover:text-brand4 transition-all duration-500 ease-in-out" />
         </button>
     );
 }

@@ -47,7 +47,7 @@ const Search = ({className} : {className : string}) => {
                         value={searchValue}
                         onChange={(e) => setSearchValue(e.target.value)}
                     />
-                    <button className="bg-brand1 hover:bg-brand1/70 transition-all duration-500 ease-in-out text-brand10 py-[14px] px-[39.25px] max-w-[119px] rounded-lg font-normal text-sm leading-5 text-center">
+                    <button className="bg-brand1 hover:text-brand4 transition-all duration-500 ease-in-out text-brand10 py-[14px] px-[39.25px] max-w-[119px] rounded-lg font-normal text-sm leading-5 text-center">
                         Buscar
                     </button>
                 </div>

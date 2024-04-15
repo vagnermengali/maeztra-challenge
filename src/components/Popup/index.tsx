@@ -75,6 +75,7 @@ const PopUp = () => {
                                                 placeholder="Digite seu e-mail"
                                                 value={email}
                                                 onChange={handleChange}
+                                                aria-label="Digite seu e-mail"
                                             />
                                             {!validEmail && <p className="text-red-500 text-xs">Por favor, insira um endereço de e-mail válido.</p>}
                                             <button className="bg-brand1 rounded-[10px] w-full h-10 text-xs font-bold leading-5 text-brand10 flex gap-2 items-center justify-center">Enviar <LiaTelegramPlane className="w-3 h-3" /></button>

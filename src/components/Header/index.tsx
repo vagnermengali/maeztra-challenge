@@ -114,10 +114,10 @@ const Header = () => {
                             {!isMobile && loginModalVisible && (
                                 <div ref={loginModalRef} className="absolute top-10 left-0 w-80 p-4 bg-brand9 shadow-effect1">
                                     <p className="text-sm text-brand4 leading-5 font-normal mb-4 text-center">Escolha uma opção para entrar</p>
-                                    <button className="bg-brand1 my-1 hover:bg-brand1/70 text-sm rounded-lg text-brand4 leading-5 font-normal w-full py-3 px-3 text-center transition-all duration-500 ease-in-out">
+                                    <button className="bg-brand1 my-1 hover:text-brand10 text-sm rounded-lg text-brand4 leading-5 font-normal w-full py-3 px-3 text-center transition-all duration-500 ease-in-out">
                                         Receber código de acesso
                                     </button>
-                                    <button className="bg-brand4 my-1 hover:bg-brand4/70 text-sm rounded-lg text-brand10 leading-5 font-normal w-full py-3 px-3 text-center transition-all duration-500 ease-in-out">
+                                    <button className="bg-brand4 my-1 hover:text-brand1 text-sm rounded-lg text-brand10 leading-5 font-normal w-full py-3 px-3 text-center transition-all duration-500 ease-in-out">
                                         Entrar com e-mail
                                     </button>
                                 </div>
