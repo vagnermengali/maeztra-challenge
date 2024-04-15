@@ -38,14 +38,25 @@ const PopUp = () => {
     useEffect(() => {
         const storedValue = localStorage.getItem('show-popup');
         setShowPopUp(storedValue ? JSON.parse(storedValue) : true);
-        if (storedValue) {
+
+        return () => {
+            if (!storedValue) {
+                document.body.style.overflow = '';
+            }
+        };
+    }, []);
+
+    useEffect(() => {
+        if (showPopUp) {
             document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
         }
 
         return () => {
             document.body.style.overflow = '';
         };
-    }, []);
+    }, [showPopUp]);
 
     return (
         <>

@@ -105,7 +105,7 @@ const Header = () => {
                         </Link>
                     </div>
                     <Search className="hidden lg:flex" />
-                    <div className="flex items-center gap-9 lg:gap-4 xl:gap-8">
+                    <div className="flex items-center gap-4 lg:gap-4 xl:gap-8">
                         <button className="block lg:hidden" onClick={handleSearchVisible}><GoSearch className="w-8 h-8" /></button>
                         <div className=" relative">
                             <button className="hidden lg:flex items-center justify-center gap-2 text-sm text-brand4 leading-5 font-normal w-[134px] h-[46px] xl:ml-[35px]" aria-label="Ir para minha conta" onClick={handleLoginButtonClick}>

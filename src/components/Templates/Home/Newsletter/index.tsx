@@ -30,9 +30,9 @@ const Newsletter = () => {
     };
 
     return (
-        <section className="bg-brand9 py-6 border-t-2 border-brand8 border-solid mt-10 md:mt-[39px]">
+        <section className="bg-brand9 py-6 border-t-2 border-brand8 border-solid mt-5 md:mt-[39px] -z-10">
             <div className="container flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-14">
-                <p className="text-brand2 text-2xl leading-9 font-bold">Recebe Nossa Newsletter</p>
+                <h6 className="text-brand2 text-2xl leading-9 font-bold">Recebe Nossa Newsletter</h6>
                 <div className="flex flex-col gap-2 sm:gap-1">
                     <form className="flex items-center w-full gap-[15px] sm:gap-0 sm:w-[280px] md:w-[410px] lg:w-[630px] relative" onSubmit={handleSubmit}>
                         <input
