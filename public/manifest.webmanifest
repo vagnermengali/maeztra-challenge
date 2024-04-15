@@ -1,8 +1,8 @@
 {
-  "name": "Tekoa: Criação de Sites Profissionais",
-  "short_name": "Tekoa",
-  "description": "A Tekoa é uma Agência de Criação de Sites Profissionais para empresas. Peça um orçamento de desenvolvimento de site para o seu negócio!",
-  "author": "Vagner Mengali, Gabriel Fray, Fabio Casanova, Gabriel Fernades",
+  "name": "Maeztra - Especialista em E-commerce",
+  "short_name": "Maeztra",
+  "description": "Uma empresa com mais de 10 anos de experiência, especialista em soluções eficientes para alavancar suas vendas online.",
+  "author": "Vagner Mengali",
   "lang": "pt-BR",
   "theme_color": "#FFF",
   "background_color": "#FFF",
@@ -109,8 +109,8 @@
   "related_applications": [
     {
       "platform": "web",
-      "url": "https://www.tekoa.dev.br/",
-      "id": "dev.br.tekoa.site"
+      "url": "https://maeztra-challenge-vagnermengali.vercel.app",
+      "id": "vercel.app.maeztra-challenge-vagnermengali.site"
     }
   ],
   "manifest_version": 3,
@@ -123,15 +123,13 @@
   "i18n": {
     "locales": {
       "en": {
-        "name": "Tekoa: Creation of Professional Websites",
-        "description": "Tekoa is a Professional Website Creation Agency for companies. Request a website development quote for your business!"
+        "name": "Maeztra - E-commerce Specialist",
+        "description": "A company with more than 10 years of experience, specializing in efficient solutions to boost your online sales."
       }
     },
     "default_locale": "pt-BR"
   },
   "navigation": {
-    "home": "/",
-    "portfolio": "/portfolio",
-    "orcamento": "/orcamento"
+    "home": "/"
   }
 }

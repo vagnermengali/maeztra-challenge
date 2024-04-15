@@ -5,21 +5,9 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
    <url>
-      <loc>https://www.tekoa.dev.br/</loc>
+      <loc>https://maeztra-challenge-vagnermengali.vercel.app/</loc>
       <lastmod>2024-03-03</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
-   </url>
-   <url>
-      <loc>https://www.tekoa.dev.br/portfolio</loc>
-      <lastmod>2024-03-03</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-    <url>
-      <loc>https://www.tekoa.dev.br/orcamento</loc>
-      <lastmod>2024-03-03</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
    </url>
 </urlset>

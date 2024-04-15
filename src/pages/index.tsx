@@ -6,9 +6,9 @@ const HomePage = () => {
   return (
     <>
       <Seo
-        title="Homepage"
-        url="https://www.tekoa.dev.br/"
-        description="Descrição Homepage"
+        title="Maeztra - Especialista em E-commerce"
+        url="https://maeztra-challenge-vagnermengali.vercel.app/"
+        description="Uma empresa com mais de 10 anos de experiência, especialista em soluções eficientes para alavancar suas vendas online."
       />
       <PopUp/>
       <Home />

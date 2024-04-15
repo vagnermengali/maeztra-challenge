@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 Disallow: /private/
-Sitemap: https://www.tekoa.dev.br/sitemap.xml
+Sitemap: https://maeztra-challenge-vagnermengali.vercel.app/sitemap.xml

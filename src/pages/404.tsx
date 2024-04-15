@@ -5,8 +5,8 @@ const NotFoundPage = () => {
     return (
         <>
             <Seo
-                title="Página Não Encontrada | Criação De Sites Profissionais - Tekoa"
-                url="https://www.tekoa.dev.br/" 
+                title="Página Não Encontrada | Maeztra - Especialista em E-commerce"
+                url="https://maeztra-challenge-vagnermengali.vercel.app/"
                 description="Página solicitada não foi encontrada"
             />
             <NotFound />
