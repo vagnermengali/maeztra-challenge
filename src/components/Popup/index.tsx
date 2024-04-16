@@ -72,7 +72,7 @@ const PopUp = () => {
             <div className="bg-brand10 w-full h-full flex flex-row justify-between">
               <Image
                 className="w-1/2 hidden lg:flex"
-                src="/assets/images/bg-newsletter.png"
+                src="/assets/images/newsletter.webp"
                 width="426"
                 height="532"
                 alt=""

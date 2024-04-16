@@ -32,7 +32,7 @@ const SlideBrands = () => {
         <SwiperSlide className="flex items-center justify-center">
           <Link href="/" aria-label="Ir para a coleção Comma" title="Comma">
             <Image
-              src="/assets/images/brand-1.png"
+              src="/assets/images/brand-1.webp"
               width="308"
               height="64"
               alt="Marca Comma"
@@ -42,7 +42,7 @@ const SlideBrands = () => {
         <SwiperSlide className="flex items-center justify-center">
           <Link href="/" aria-label="Ir para a coleção Melissa" title="Melissa">
             <Image
-              src="/assets/images/brand-2.png"
+              src="/assets/images/brand-2.webp"
               width="307"
               height="64"
               alt="Marca Melissa"
@@ -56,7 +56,7 @@ const SlideBrands = () => {
             title="Forever21"
           >
             <Image
-              src="/assets/images/brand-3.png"
+              src="/assets/images/brand-3.webp"
               width="308"
               height="64"
               alt="Marca Forever21"
@@ -66,7 +66,7 @@ const SlideBrands = () => {
         <SwiperSlide className="flex items-center justify-center">
           <Link href="/" aria-label="Ir para a coleção Zara" title="Zara">
             <Image
-              src="/assets/images/brand-4.png"
+              src="/assets/images/brand-4.webp"
               width="322"
               height="67"
               alt="Marca Zara"
@@ -80,7 +80,7 @@ const SlideBrands = () => {
             title="Ann Taylor"
           >
             <Image
-              src="/assets/images/brand-5.png"
+              src="/assets/images/brand-5.webp"
               width="307"
               height="64"
               alt="Marca Ann Taylor"

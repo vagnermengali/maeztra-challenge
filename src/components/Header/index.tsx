@@ -107,7 +107,7 @@ const Header = () => {
         onMouseEnter={() => setActiveMenu(null)}
       >
         <div className="container flex items-center justify-between h-[88px]">
-          <div className="flex items-center gap-[15px]">
+          <div className="flex items-center justify-start gap-[15px]">
             <button
               className="block lg:hidden cursor-pointer"
               onClick={handleMenu}
@@ -117,7 +117,7 @@ const Header = () => {
             <Link href="/" aria-label="Ir para a página inicial">
               <Image
                 className="w-[110px] h-[12px] md:w-[147px] md:h-[18px]"
-                src="/assets/images/logo-maeztra.png"
+                src="/assets/images/logo-maeztra.webp"
                 width="147"
                 height="18"
                 alt="Maeztra"
@@ -125,9 +125,14 @@ const Header = () => {
             </Link>
           </div>
           <Search className="hidden lg:flex" />
-          <div className="flex items-center gap-[15px] lg:gap-4 xl:gap-8">
+          <div className="flex items-center gap-0 lg:gap-4 xl:gap-8">
             <button className="block lg:hidden" onClick={handleSearchVisible}>
-              <Icon id="Magnifier" width="30" height="30" />
+              <Icon
+                id="Magnifier"
+                width="32"
+                height="32"
+                className="mr-[31px]"
+              />
             </button>
             <div className=" relative">
               <button

@@ -35,7 +35,7 @@ const SlideBenefits = () => {
         <SwiperSlide className="flex items-center justify-center">
           <div className="flex flex-row gap-3 2xl:gap-5 items-center py-4 px-3 2xl:px-[26px] rounded bg-brand8 w-[298px]  md:w-[308px] h-16">
             <Image
-              src="/assets/images/benefits-1.png"
+              src="/assets/images/benefits-1.webp"
               alt="Ícone do planeta terra"
               width="32"
               height="32"
@@ -53,7 +53,7 @@ const SlideBenefits = () => {
         <SwiperSlide className="flex items-center justify-center">
           <div className="flex flex-row gap-3 2xl:gap-5 items-center py-4 px-3 2xl:px-[26px] rounded bg-brand8 w-[298px]  md:w-[308px] h-16">
             <Image
-              src="/assets/images/benefits-2.png"
+              src="/assets/images/benefits-2.webp"
               alt="Ícone de uma caixa"
               width="32"
               height="32"
@@ -71,7 +71,7 @@ const SlideBenefits = () => {
         <SwiperSlide className="flex items-center justify-center">
           <div className="flex flex-row gap-3 2xl:gap-5 items-center py-4 px-3 2xl:px-[26px] rounded bg-brand8 w-[298px]  md:w-[308px] h-16">
             <Image
-              src="/assets/images/benefits-3.png"
+              src="/assets/images/benefits-3.webp"
               alt="Ícone de uma tag de desconto"
               width="32"
               height="32"
@@ -89,7 +89,7 @@ const SlideBenefits = () => {
         <SwiperSlide className="flex items-center justify-center">
           <div className="flex flex-row gap-3 2xl:gap-5 items-center py-4 px-3 2xl:px-[26px] rounded bg-brand8 w-[298px]  md:w-[308px] h-16">
             <Image
-              src="/assets/images/benefits-4.png"
+              src="/assets/images/benefits-4.webp"
               alt="Ícone de um caminhão"
               width="32"
               height="32"
@@ -105,7 +105,7 @@ const SlideBenefits = () => {
         <SwiperSlide className="flex items-center justify-center">
           <div className="flex flex-row gap-3 2xl:gap-5 items-center py-4 px-3 2xl:px-[26px] rounded bg-brand8 w-[298px]  md:w-[308px] h-16">
             <Image
-              src="/assets/images/benefits-5.png"
+              src="/assets/images/benefits-5.webp"
               alt=""
               width="32"
               height="32"

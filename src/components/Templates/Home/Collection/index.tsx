@@ -23,7 +23,7 @@ const Collection = () => {
         <Link href="/" aria-label="Ir para a coleção outono-inverno">
           <Image
             className="w-[1114px] rounded lg:rounded-none"
-            src="/assets/images/second-banner.png"
+            src="/assets/images/second-banner.webp"
             width="1114"
             height="480"
             alt="Nova coleção de outono-inverno"

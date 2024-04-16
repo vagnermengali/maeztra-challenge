@@ -20,7 +20,7 @@ const MainBanner = () => {
                 <SwiperSlide>
                     <Link href="/" aria-label="Ir para a promoções de outono">
                         <div className="relative">
-                            <Image className="w-screen" src="/assets/images/banner-main.png" width={1920} height={600} alt="Promoções de Outono" />
+                            <Image className="w-screen" src="/assets/images/banner-main.webp" width={1920} height={600} alt="Promoções de Outono" />
                             <div className="absolute top-0">
                                 <h1>Promoções de Outono</h1>
                                 <p>Confira os melhores looks para combinar com você nesse Outono</p>
@@ -32,7 +32,7 @@ const MainBanner = () => {
                 <SwiperSlide>
                     <Link href="/" aria-label="Ir para a promoções de outono">
                         <div className="relative">
-                            <Image className="w-screen" src="/assets/images/banner-main.png" width={1920} height={600} alt="Promoções de Outono" />
+                            <Image className="w-screen" src="/assets/images/banner-main.webp" width={1920} height={600} alt="Promoções de Outono" />
                             <div className="absolute top-0">
                                 <h1>Promoções de Outono</h1>
                                 <p>Confira os melhores looks para combinar com você nesse Outono</p>
@@ -44,7 +44,7 @@ const MainBanner = () => {
                 <SwiperSlide>
                     <Link href="/" aria-label="Ir para a promoções de outono">
                         <div className="relative">
-                            <Image className="w-screen" src="/assets/images/banner-main.png" width={1920} height={600} alt="Promoções de Outono" />
+                            <Image className="w-screen" src="/assets/images/banner-main.webp" width={1920} height={600} alt="Promoções de Outono" />
                             <div className="absolute top-0">
                                 <h1>Promoções de Outono</h1>
                                 <p>Confira os melhores looks para combinar com você nesse Outono</p>

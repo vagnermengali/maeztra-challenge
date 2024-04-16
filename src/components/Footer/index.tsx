@@ -249,12 +249,7 @@ const Footer = () => {
             </Link>
           </div>
           <div>
-            <Image
-              src="/assets/images/flags.png"
-              alt="Bandeiras de cartão"
-              width="193"
-              height="25"
-            />
+            <Icon id="Flags" width="200" height="25" />
           </div>
           <div className="flex items-center justify-center gap-5">
             <Link
@@ -264,7 +259,7 @@ const Footer = () => {
               target="_blank"
             >
               <Image
-                src="/assets/images/vtex.png"
+                src="/assets/images/vtex.webp"
                 alt="Logo Vtex"
                 width="68"
                 height="48"
@@ -277,7 +272,7 @@ const Footer = () => {
               target="_blank"
             >
               <Image
-                src="/assets/images/maeztra.png"
+                src="/assets/images/maeztra.webp"
                 alt="Logo Maeztra"
                 width="129"
                 height="49"
