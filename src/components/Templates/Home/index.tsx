@@ -8,12 +8,12 @@ import ProductSlide from "@/components/Templates/Home/ProductSlide";
 const Home = () => {
   return (
     <div>
-     {/*  <MainBanner />
+      {/* <MainBanner /> */}
       <Benefits />
       <Brands />
-      <ProductSlide />
+      {/* <ProductSlide /> */}
       <Collection />
-      <Newsletter /> */}
+      <Newsletter />
     </div>
   );
 }

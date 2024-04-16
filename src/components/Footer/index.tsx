@@ -2,13 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-import {
-  FaFacebookSquare,
-  FaLinkedinIn,
-  FaInstagram,
-  FaYoutube,
-} from "react-icons/fa";
-
 import Icon from "@/components/Icon";
 
 const Footer = () => {

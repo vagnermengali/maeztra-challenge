@@ -17,7 +17,7 @@ const config: Config = {
           md: "768px",
           lg: "1024px",
           xl: "1280px",
-          "2xl": "1600px",
+          "2xl": "1636px",
         },
       },
       screens: {
@@ -25,7 +25,7 @@ const config: Config = {
         md: "768px",
         lg: "1024px",
         xl: "1280px",
-        "2xl": "1600px",
+        "2xl": "1636px",
       },
       colors: {
         brand1: "#FAA500",

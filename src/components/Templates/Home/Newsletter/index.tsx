@@ -1,5 +1,4 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
-import { FaRegCircleCheck } from 'react-icons/fa6';
 
 const Newsletter = () => {
     const [email, setEmail] = useState('');

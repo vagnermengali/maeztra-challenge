@@ -125,9 +125,9 @@ const Header = () => {
             </Link>
           </div>
           <Search className="hidden lg:flex" />
-          <div className="flex items-center gap-4 lg:gap-4 xl:gap-8">
+          <div className="flex items-center gap-[15px] lg:gap-4 xl:gap-8">
             <button className="block lg:hidden" onClick={handleSearchVisible}>
-              <Icon id="Magnifier" width="24" height="24" />
+              <Icon id="Magnifier" width="30" height="30" />
             </button>
             <div className=" relative">
               <button
@@ -170,7 +170,7 @@ const Header = () => {
                 id="Bag"
                 width="14.38"
                 height="16"
-                className="h-6 w-6 md:w-auto md:h-auto"
+                className="h-6 w-6 lg:w-auto lg:h-auto"
               />
               <p className="hidden lg:block text-sm text-brand4 leading-5 font-normal">
                 Meu Carrinho
