@@ -11,7 +11,7 @@ const Seo = ({
 }) => {
   return (
     <Head>
-      <meta name="author" content="Maeztra" />
+      <meta name="author" content="V-a-g-n-e-r-M-e-n-g-a-l-i" />
       <meta name="keywords" content="Javascript" />
       <link
         rel="fluid-icon"

@@ -6,3 +6,23 @@
 body {
   @apply bg-brand9 text-brand4;
 }
+
+.mz-swiper .swiper-button-prev {
+  @apply left-7 lg:left-[8.4%] w-5 h-8 bg-arrow-x bg-center bg-no-repeat after:hidden;
+}
+
+.mz-swiper .swiper-button-next {
+  @apply right-7 lg:right-[8.4%] w-5 h-8 bg-arrow-x bg-center bg-no-repeat rotate-180 after:hidden;
+}
+
+.mz-swiper .swiper-pagination-bullet {
+  @apply p-0 m-0 w-2 h-2 md:w-4 md:h-4 bg-transparent border-2 border-solid border-brand1 opacity-100;
+}
+
+.mz-swiper .swiper-pagination-bullet-active {
+  @apply bg-brand1;
+}
+
+.mz-swiper .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  @apply flex items-center justify-center gap-2 bottom-4 md:bottom-6;
+}

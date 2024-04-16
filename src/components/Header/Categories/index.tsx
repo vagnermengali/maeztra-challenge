@@ -46,9 +46,9 @@ const Categories = ({
                       href={link.href}
                       className={`${
                         link.label == "Ver tudo"
-                          ? "absolute bottom-0 right-0 underline font-bold uppercase"
+                          ? "absolute bottom-0 right-0 underline font-bold uppercase "
                           : "font-normal hover:underline"
-                      } block text-brand4 leading-5 text-sm`}
+                      } block text-brand4 leading-5 text-sm w-fit`}
                       aria-label={`Ir para ${link.label}`}
                       title={link.label}
                     >

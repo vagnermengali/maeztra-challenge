@@ -84,6 +84,9 @@ const config: Config = {
         "minicart-in": "minicart-in 0.5s forwards",
         "minicart-out": "minicart-out 0.5s forwards",
       },
+      backgroundImage: {
+        'arrow-x': "url('/assets/icons/arrowX.svg')",
+      }
     },
   },
   plugins: [],
