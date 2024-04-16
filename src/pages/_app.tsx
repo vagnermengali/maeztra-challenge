@@ -6,7 +6,7 @@ import Layout from "@/components/Layout";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <Layout>
-      <main className="flex flex-col">
+      <main>
         <Component {...pageProps} />
       </main>
     </Layout>

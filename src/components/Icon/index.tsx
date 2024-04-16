@@ -1,15 +1,24 @@
-const Icon = ({ id, strokeWidth = 2, size, width, height, className, ...otherProps }: any) => {
+const Icon = ({
+    id,
+    strokeWidth = 2,
+    size,
+    width,
+    height,
+    className,
+    ...otherProps
+  }: any) => {
     return (
-        <svg
-            className={className}
-            {...otherProps}
-            width={width ?? size}
-            height={height ?? size}
-            strokeWidth={strokeWidth}
-        >
-            <use href={`/assets/icons/sprites.svg#${id}`} />
-        </svg>
+      <svg
+        className={className}
+        {...otherProps}
+        width={width ?? size}
+        height={height ?? size}
+        strokeWidth={strokeWidth}
+      >
+        <use href={`/assets/icons/sprites.svg#${id}`} />
+      </svg>
     );
-}
-
-export default Icon;
+  };
+  
+  export default Icon;
+  

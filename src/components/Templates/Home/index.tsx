@@ -1,19 +1,19 @@
-import Benefits from "./Benefits";
-import Brands from "./Brands";
-import Collection from "./Collection";
-import MainBanner from "./MainBanner";
-import Newsletter from "./Newsletter";
-import ProductSlide from "./ProductSlide";
+import Benefits from "@/components/Templates/Home/Benefits";
+import Brands from "@/components/Templates/Home/Brands";
+import Collection from "@/components/Templates/Home/Collection";
+import MainBanner from "@/components/Templates/Home/MainBanner";
+import Newsletter from "@/components/Templates/Home/Newsletter";
+import ProductSlide from "@/components/Templates/Home/ProductSlide";
 
 const Home = () => {
   return (
-    <div className="flex flex-col w-full">
-      <MainBanner />
+    <div>
+     {/*  <MainBanner />
       <Benefits />
       <Brands />
       <ProductSlide />
       <Collection />
-      <Newsletter />
+      <Newsletter /> */}
     </div>
   );
 }

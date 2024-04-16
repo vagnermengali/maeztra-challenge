@@ -1,18 +1,6 @@
 import { useState } from "react";
-import { GoSearch } from "react-icons/go";
 
-const TOP_SEARCHES = [
-    "Camisetas Masculinas",
-    "Vestidos de Verão",
-    "Calças Jeans Femininas",
-    "Tênis Esportivos",
-    "Blusas Plus Size",
-    "Jaquetas de Couro",
-    "Moda Praia",
-    "Acessórios Femininos",
-    "Sapatos Sociais",
-    "Roupas Infantis",
-];
+import { TopSearches } from "@/data/TopSearches";
 
 const Search = ({className} : {className : string}) => {
     const [showTopSearches, setShowTopSearches] = useState(false);
@@ -55,7 +43,7 @@ const Search = ({className} : {className : string}) => {
                     <div className="bg-brand10 shadow-effect1 rounded p-4 absolute flex flex-col gap-3 md:gap-4 w-full mt-6">
                         <h2 className="text-bran4 text-base leading-[18px] font-bold">Termos mais procurados</h2>
                         <ul>
-                            {TOP_SEARCHES.map((item, index) => (
+                            {TopSearches.map((item, index) => (
                                 <li key={index} className="py-1 cursor-pointer hover:bg-gray-100" onClick={() => handleItemClick(item)}>
                                     <p className="text-bran4 text-xs leading-[18px] font-normal">{item}</p>
                                 </li>

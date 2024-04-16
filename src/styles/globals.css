@@ -4,5 +4,18 @@
 @layer utilities {}
 
 body {
-    @apply bg-brand9 text-brand4;
-  }
+  @apply bg-brand9 text-brand4;
+}
+
+.swiper-button-next {
+  right: 212px !important;
+}
+
+.swiper-button-prev {
+  left: 212px !important;
+  
+}
+
+.swiper-button-prev::after {
+  background: url("/assets/icons/sprites.svg#ArrowX") !important;
+}

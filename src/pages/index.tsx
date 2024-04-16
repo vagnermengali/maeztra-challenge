@@ -10,10 +10,10 @@ const HomePage = () => {
         url="https://maeztra-challenge-vagnermengali.vercel.app/"
         description="Uma empresa com mais de 10 anos de experiência, especialista em soluções eficientes para alavancar suas vendas online."
       />
-      <PopUp/>
+      <PopUp />
       <Home />
     </>
   );
-}
+};
 
-export default HomePage
+export default HomePage;
