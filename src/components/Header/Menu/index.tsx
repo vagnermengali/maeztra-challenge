@@ -72,8 +72,8 @@ const Menu = ({
           !isMobile ? "hidden" : isMenu ? "animate-menu-in" : "hidden"
         } fixed top-0 bottom-0 left-0 z-50 bg-brand10 w-80 md:w-96`}
       >
-        <div className="relative flex flex-col h-full pt-[94px] pb-[72px]">
-          <div className="absolute right-0 py-6 bg-brand1 px-4 top-0 flex justify-between w-full border-b-2 border-solid border-brand8 pb-3">
+        <div className="relative overflow-y-scroll flex flex-col h-full">
+          <div className="sticky right-0 py-6 bg-brand1 px-4 top-0 flex justify-between w-full border-b-2 border-solid border-brand8 pb-3">
             <div className="flex flex-col gap-4">
               <Link
                 className="flex items-center gap-2 text-brand10 font-semibold text-sm"
@@ -162,7 +162,7 @@ const Menu = ({
           >
             Novidades
           </Link>
-          <div className="absolute bottom-0 left-0 py-6 px-7 bg-brand9 w-full">
+          <div className="sticky bottom-0 left-0 py-6 px-7 bg-brand9 w-full">
             <Link
               className="flex flex-row items-center gap-2 text-brand4 font-semibold text-base"
               href="/institucional/fale-conosco"

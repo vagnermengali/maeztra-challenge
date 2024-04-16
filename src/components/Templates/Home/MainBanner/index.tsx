@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 
-import { banners } from "@/data/Banners";
+import { Banners } from "@/data/Banners";
 
 const MainBanner = () => {
   return (
@@ -20,7 +20,7 @@ const MainBanner = () => {
         className="mz-swiper"
         modules={[Pagination, Navigation]}
       >
-        {banners.map((banner, index) => (
+        {Banners.map((banner, index) => (
           <SwiperSlide key={index}>
             <Link href="/" aria-label="Ir para a promoções de outono">
               <div className="relative">

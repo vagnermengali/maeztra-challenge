@@ -1,4 +1,4 @@
-export const banners = [
+export const Banners = [
     {
       title: "Promoções de Outono",
       description:

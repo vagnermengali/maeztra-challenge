@@ -15,6 +15,14 @@ body {
   @apply right-7 lg:right-[8.4%] w-5 h-8 bg-arrow-x bg-center bg-no-repeat rotate-180 after:hidden;
 }
 
+.mz-swiper.mz-slide .swiper-button-prev {
+  @apply left-0 hidden sm:block w-5 h-8 bg-arrow-x bg-center bg-no-repeat after:hidden;
+}
+
+.mz-swiper.mz-slide .swiper-button-next {
+  @apply right-0 hidden sm:block w-5 h-8 bg-arrow-x bg-center bg-no-repeat rotate-180 after:hidden;
+}
+
 .mz-swiper .swiper-pagination-bullet {
   @apply p-0 m-0 w-2 h-2 md:w-4 md:h-4 bg-transparent border-2 border-solid border-brand1 opacity-100;
 }
