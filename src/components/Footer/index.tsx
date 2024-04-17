@@ -260,14 +260,14 @@ const Footer = () => {
             >
               <Image
                 className="hidden md:flex"
-                src="/assets/images/vtex.webp"
+                src="./assets/images/vtex.webp"
                 alt="Logo Vtex"
                 width="68"
                 height="46"
               />
               <Image
                 className="flex md:hidden"
-                src="/assets/images/vtex-mobile.webp"
+                src="./assets/images/vtex-mobile.webp"
                 alt="Logo Vtex"
                 width="68"
                 height="49"
@@ -281,14 +281,14 @@ const Footer = () => {
             >
               <Image
                 className="hidden md:flex"
-                src="/assets/images/maeztra.webp"
+                src="./assets/images/maeztra.webp"
                 alt="Logo Maeztra"
                 width="120"
                 height="49"
               />
               <Image
                 className="flex md:hidden"
-                src="/assets/images/maeztra-mobile.webp"
+                src="./assets/images/maeztra-mobile.webp"
                 alt="Logo Vtex"
                 width="120"
                 height="49"

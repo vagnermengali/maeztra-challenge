@@ -15,52 +15,52 @@ const Seo = ({
       <meta name="keywords" content="Javascript" />
       <link
         rel="fluid-icon"
-        href="/assets/favicons/favicon.svg"
+        href="./assets/favicons/favicon.svg"
         title="Maeztra"
       />
-      <link rel="icon" type="svg+xml" href="/assets/favicons/favicon.svg" />
+      <link rel="icon" type="svg+xml" href="./assets/favicons/favicon.svg" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>{title}</title>
       <link
         rel="shortcut icon"
-        href="/assets/favicons/favicon.svg"
+        href="./assets/favicons/favicon.svg"
         type="x-icon"
       />
-      <link rel="icon" href="/assets/favicons/favicon-32.png" sizes="32x32" />
-      <link rel="icon" href="/assets/favicons/favicon-48.png" sizes="48x48" />
-      <link rel="icon" href="/assets/favicons/favicon-57.png" sizes="57x57" />
-      <link rel="icon" href="/assets/favicons/favicon-60.png" sizes="60x60" />
-      <link rel="icon" href="/assets/favicons/favicon-72.png" sizes="72x72" />
-      <link rel="icon" href="/assets/favicons/favicon-76.png" sizes="76x76" />
-      <link rel="icon" href="/assets/favicons/favicon-96.png" sizes="96x96" />
+      <link rel="icon" href="./assets/favicons/favicon-32.png" sizes="32x32" />
+      <link rel="icon" href="./assets/favicons/favicon-48.png" sizes="48x48" />
+      <link rel="icon" href="./assets/favicons/favicon-57.png" sizes="57x57" />
+      <link rel="icon" href="./assets/favicons/favicon-60.png" sizes="60x60" />
+      <link rel="icon" href="./assets/favicons/favicon-72.png" sizes="72x72" />
+      <link rel="icon" href="./assets/favicons/favicon-76.png" sizes="76x76" />
+      <link rel="icon" href="./assets/favicons/favicon-96.png" sizes="96x96" />
       <link
         rel="icon"
-        href="/assets/favicons/favicon-120.png"
+        href="./assets/favicons/favicon-120.png"
         sizes="120x120"
       />
       <link
         rel="icon"
-        href="/assets/favicons/favicon-144.png"
+        href="./assets/favicons/favicon-144.png"
         sizes="144x144"
       />
       <link
         rel="icon"
-        href="/assets/favicons/favicon-152.png"
+        href="./assets/favicons/favicon-152.png"
         sizes="152x152"
       />
       <link
         rel="icon"
-        href="/assets/favicons/favicon-180.png"
+        href="./assets/favicons/favicon-180.png"
         sizes="180x180"
       />
       <link
         rel="icon"
-        href="/assets/favicons/favicon-192.png"
+        href="./assets/favicons/favicon-192.png"
         sizes="192x192"
       />
       <link
         rel="icon"
-        href="/assets/favicons/favicon-512.png"
+        href="./assets/favicons/favicon-512.png"
         sizes="512x512"
       />
       <meta name="description" content={description} />

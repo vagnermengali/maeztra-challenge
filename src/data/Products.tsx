@@ -1,6 +1,6 @@
 export const Products = [
   {
-    image: "/assets/images/product-1.webp",
+    image: "./assets/images/product-1.webp",
     sku: [
       { name: "bege", color: "#DEAC71" },
       { name: "vermelho", color: "#D37164" },
@@ -14,7 +14,7 @@ export const Products = [
     link: "/#faux-suede-mini-skirt",
   },
   {
-    image: "/assets/images/product-2.webp",
+    image: "./assets/images/product-2.webp",
     sku: [
       { name: "preto", color: "#1C1A19" },
       { name: "vermelho", color: "#D84E4B" },
@@ -28,7 +28,7 @@ export const Products = [
     link: "/#ruched-rose-print-mini-skirt",
   },
   {
-    image: "/assets/images/product-1.webp",
+    image: "./assets/images/product-1.webp",
     sku: [
       { name: "bege", color: "#DEAC71" },
       { name: "vermelho", color: "#D37164" },
@@ -42,7 +42,7 @@ export const Products = [
     link: "/#faux-suede-mini-skirt",
   },
   {
-    image: "/assets/images/product-2.webp",
+    image: "./assets/images/product-2.webp",
     sku: [
       { name: "preto", color: "#1C1A19" },
       { name: "vermelho", color: "#D84E4B" },
@@ -56,7 +56,7 @@ export const Products = [
     link: "/#ruched-rose-print-mini-skirt",
   },
   {
-    image: "/assets/images/product-1.webp",
+    image: "./assets/images/product-1.webp",
     sku: [
       { name: "bege", color: "#DEAC71" },
       { name: "vermelho", color: "#D37164" },
@@ -70,7 +70,7 @@ export const Products = [
     link: "/#faux-suede-mini-skirt",
   },
   {
-    image: "/assets/images/product-2.webp",
+    image: "./assets/images/product-2.webp",
     sku: [
       { name: "preto", color: "#1C1A19" },
       { name: "vermelho", color: "#D84E4B" },
@@ -84,7 +84,7 @@ export const Products = [
     link: "/#ruched-rose-print-mini-skirt",
   },
   {
-    image: "/assets/images/product-1.webp",
+    image: "./assets/images/product-1.webp",
     sku: [
       { name: "bege", color: "#DEAC71" },
       { name: "vermelho", color: "#D37164" },
@@ -98,7 +98,7 @@ export const Products = [
     link: "/#faux-suede-mini-skirt",
   },
   {
-    image: "/assets/images/product-2.webp",
+    image: "./assets/images/product-2.webp",
     sku: [
       { name: "preto", color: "#1C1A19" },
       { name: "vermelho", color: "#D84E4B" },
@@ -112,7 +112,7 @@ export const Products = [
     link: "/#ruched-rose-print-mini-skirt",
   },
   {
-    image: "/assets/images/product-1.webp",
+    image: "./assets/images/product-1.webp",
     sku: [
       { name: "bege", color: "#DEAC71" },
       { name: "vermelho", color: "#D37164" },
@@ -126,7 +126,7 @@ export const Products = [
     link: "/#faux-suede-mini-skirt",
   },
   {
-    image: "/assets/images/product-2.webp",
+    image: "./assets/images/product-2.webp",
     sku: [
       { name: "preto", color: "#1C1A19" },
       { name: "vermelho", color: "#D84E4B" },

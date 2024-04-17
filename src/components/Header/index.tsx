@@ -118,7 +118,7 @@ const Header = () => {
             <Link href="/" aria-label="Ir para a página inicial">
               <Image
                 className="w-[110px] h-[12px] min-w-[110px] md:min-w-[147px] md:w-[147px] md:h-[18px]"
-                src="/assets/images/logo-maeztra.webp"
+                src="./assets/images/logo-maeztra.webp"
                 width="147"
                 height="18"
                 alt="Maeztra"

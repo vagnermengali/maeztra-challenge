@@ -36,7 +36,7 @@ const SlideBrands = () => {
             title="Comma"
           >
             <Image
-              src="/assets/images/brand-1.webp"
+              src="./assets/images/brand-1.webp"
               loading="lazy"
               width="308"
               height="64"
@@ -51,7 +51,7 @@ const SlideBrands = () => {
             title="Melissa"
           >
             <Image
-              src="/assets/images/brand-2.webp"
+              src="./assets/images/brand-2.webp"
               loading="lazy"
               width="307"
               height="64"
@@ -66,7 +66,7 @@ const SlideBrands = () => {
             title="Forever21"
           >
             <Image
-              src="/assets/images/brand-3.webp"
+              src="./assets/images/brand-3.webp"
               loading="lazy"
               width="308"
               height="64"
@@ -77,7 +77,7 @@ const SlideBrands = () => {
         <SwiperSlide className="flex items-center justify-center">
           <Link href="/#zara" aria-label="Ir para a coleção Zara" title="Zara">
             <Image
-              src="/assets/images/brand-4.webp"
+              src="./assets/images/brand-4.webp"
               loading="lazy"
               width="322"
               height="67"
@@ -92,7 +92,7 @@ const SlideBrands = () => {
             title="Ann Taylor"
           >
             <Image
-              src="/assets/images/brand-5.webp"
+              src="./assets/images/brand-5.webp"
               loading="lazy"
               width="307"
               height="64"
