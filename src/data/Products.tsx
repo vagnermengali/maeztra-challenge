@@ -12,7 +12,7 @@ export const Products = [
     title: "Faux Suede Mini Skirt",
     description:
       "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
-    link: "/",
+    link: "/#faux-suede-mini-skirt",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const Products = [
     title: "Ruched Rose Print Mini Skirt",
     description:
       "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
-    link: "/",
+     link: "/#ruched-rose-print-mini-skirt",
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const Products = [
     title: "Faux Suede Mini Skirt",
     description:
       "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
-    link: "/",
+    link: "/#faux-suede-mini-skirt",
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const Products = [
     title: "Ruched Rose Print Mini Skirt",
     description:
       "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
-    link: "/",
+     link: "/#ruched-rose-print-mini-skirt",
   },
   {
     id: 5,
@@ -72,55 +72,40 @@ export const Products = [
     title: "Faux Suede Mini Skirt",
     description:
       "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
-    link: "/",
+    link: "/#faux-suede-mini-skirt",
   },
   {
     id: 6,
-    image: "/assets/images/product-1.webp",
+    image: "/assets/images/product-2.webp",
     sku: [
-      { id: 1, name: "bege", color: "#DEAC71" },
-      { id: 2, name: "vermelho", color: "#D37164" },
-      { id: 3, name: "azul", color: "#6497D3" },
-      { id: 4, name: "roxo", color: "#3C3B79" },
+      { id: 5, name: "preto", color: "#1C1A19" },
+      { id: 6, name: "vermelho", color: "#D84E4B" },
+      { id: 7, name: "cinza", color: "#CFC9B0" },
+      { id: 8, name: "branco", color: "#EAE9E5" },
     ],
-    price: 500.0,
-    title: "Faux Suede Mini Skirt",
+    price: 320,
+    title: "Ruched Rose Print Mini Skirt",
     description:
-      "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
-    link: "/",
+      "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+     link: "/#ruched-rose-print-mini-skirt",
   },
   {
     id: 7,
-    image: "/assets/images/product-2.webp",
+    image: "/assets/images/product-1.webp",
     sku: [
-      { id: 5, name: "preto", color: "#1C1A19" },
-      { id: 6, name: "vermelho", color: "#D84E4B" },
-      { id: 7, name: "cinza", color: "#CFC9B0" },
-      { id: 8, name: "branco", color: "#EAE9E5" },
+      { id: 1, name: "bege", color: "#DEAC71" },
+      { id: 2, name: "vermelho", color: "#D37164" },
+      { id: 3, name: "azul", color: "#6497D3" },
+      { id: 4, name: "roxo", color: "#3C3B79" },
     ],
-    price: 320,
-    title: "Ruched Rose Print Mini Skirt",
+    price: 500.0,
+    title: "Faux Suede Mini Skirt",
     description:
-      "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
-    link: "/",
+      "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+    link: "/#faux-suede-mini-skirt",
   },
   {
     id: 8,
-    image: "/assets/images/product-1.webp",
-    sku: [
-      { id: 1, name: "bege", color: "#DEAC71" },
-      { id: 2, name: "vermelho", color: "#D37164" },
-      { id: 3, name: "azul", color: "#6497D3" },
-      { id: 4, name: "roxo", color: "#3C3B79" },
-    ],
-    price: 500.0,
-    title: "Faux Suede Mini Skirt",
-    description:
-      "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
-    link: "/",
-  },
-  {
-    id: 9,
     image: "/assets/images/product-2.webp",
     sku: [
       { id: 5, name: "preto", color: "#1C1A19" },
@@ -132,10 +117,10 @@ export const Products = [
     title: "Ruched Rose Print Mini Skirt",
     description:
       "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
-    link: "/",
+     link: "/#ruched-rose-print-mini-skirt",
   },
   {
-    id: 10,
+    id: 9,
     image: "/assets/images/product-1.webp",
     sku: [
       { id: 1, name: "bege", color: "#DEAC71" },
@@ -147,6 +132,21 @@ export const Products = [
     title: "Faux Suede Mini Skirt",
     description:
       "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
-    link: "/",
+    link: "/#faux-suede-mini-skirt",
+  },
+  {
+    id: 10,
+    image: "/assets/images/product-2.webp",
+    sku: [
+      { id: 5, name: "preto", color: "#1C1A19" },
+      { id: 6, name: "vermelho", color: "#D84E4B" },
+      { id: 7, name: "cinza", color: "#CFC9B0" },
+      { id: 8, name: "branco", color: "#EAE9E5" },
+    ],
+    price: 320,
+    title: "Ruched Rose Print Mini Skirt",
+    description:
+      "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+     link: "/#ruched-rose-print-mini-skirt",
   },
 ];

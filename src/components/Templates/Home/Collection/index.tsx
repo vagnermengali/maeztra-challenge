@@ -20,7 +20,7 @@ const Collection = () => {
             e funcionalidade se encontram!
           </p>
         </div>
-        <Link href="/" aria-label="Ir para a coleção outono-inverno">
+        <Link href="/#outono-inverno" aria-label="Ir para a coleção outono-inverno">
           <Image
             className="w-[1114px] rounded lg:rounded-none"
             src="/assets/images/second-banner.webp"

@@ -77,7 +77,7 @@ const Menu = ({
             <div className="flex flex-col gap-4">
               <Link
                 className="flex items-center gap-2 text-brand10 font-semibold text-sm"
-                href="/"
+                href="/#login"
                 aria-label="Ir para a página de login"
                 onClick={handleMenu}
               >
@@ -85,7 +85,7 @@ const Menu = ({
               </Link>
               <Link
                 className="flex items-center gap-2 text-brand10 font-semibold text-sm"
-                href="/"
+                href="/#account#/wishlis"
                 aria-label="Ir para a página dos meus favoritos"
                 onClick={handleMenu}
               >
@@ -147,7 +147,7 @@ const Menu = ({
             </div>
           ))}
           <Link
-            href="/"
+            href="/#outlet"
             className="text-brand4 w-full py-4 px-4 border-b-[1px] border-solid border-brand8 bg-brand10 hover:brightness-95 transition-all duration-500 ease-in-out leading-5 text-base font-bold"
             aria-label="Ir para a categoria de Outlet"
             title="Outlet"
@@ -155,7 +155,7 @@ const Menu = ({
             OUTLET
           </Link>
           <Link
-            href="/"
+            href="/#novidades"
             className="text-brand1 w-full py-4 px-4 border-b-[1px] border-solid border-brand8 bg-brand10 hover:brightness-95 transition-all duration-500 ease-in-out leading-5 text-base font-bold"
             aria-label="Ir para a categoria de novidades"
             title="Novidades"

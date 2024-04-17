@@ -161,7 +161,7 @@ const Header = () => {
             </div>
             <Link
               className="hidden lg:flex items-center justify-center gap-2 text-sm text-brand4 leading-5 font-normal w-[134px] h-[46px]"
-              href="/"
+              href="/#account#/wishlist"
               aria-label="Ir para a página dos meus favoritos"
             >
               <Icon id="Heart" width="18.28" height="16" /> Favoritos

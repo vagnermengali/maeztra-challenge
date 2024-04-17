@@ -76,7 +76,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-bran4 text-xs leading-[18px] font-normal"
-                    href="/"
+                    href="/#institucional/quem-somos"
                     aria-label="Ir para a página de quem somos"
                     title="Quem somos"
                   >
@@ -86,7 +86,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-bran4 text-xs leading-[18px] font-normal"
-                    href="/"
+                    href="/#institucional/prazo-de-envio"
                     aria-label="Ir para a página de prazo de envio"
                     title="Prazo de envio"
                   >
@@ -96,7 +96,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-bran4 text-xs leading-[18px] font-normal"
-                    href="/"
+                    href="/#institucional/troca-e-devolução"
                     aria-label="Ir para a página de troca e devoluções"
                     title="Troca e devoluções"
                   >
@@ -106,7 +106,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-bran4 text-xs leading-[18px] font-normal"
-                    href="/"
+                    href="/#institucional/promocoes-e-cupons"
                     aria-label="Ir para a página promoções e cupons"
                     title="Promoções e cupons"
                   >
@@ -138,7 +138,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-bran4 text-xs leading-[18px] font-normal"
-                    href="/"
+                    href="/#account"
                     aria-label="Ir para minha conta"
                     title="Minha conta"
                   >
@@ -148,7 +148,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-bran4 text-xs leading-[18px] font-normal"
-                    href="/"
+                    href="/#account/#/orders"
                     aria-label="Ir para a página dos meus pedidos"
                     title="Meus pedidos"
                   >
@@ -158,7 +158,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-bran4 text-xs leading-[18px] font-normal"
-                    href="/"
+                    href="/#login"
                     aria-label="Ir para a página de cadastro"
                     title="Cadastre-se"
                   >
@@ -190,7 +190,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-bran4 text-xs leading-[18px] font-normal"
-                    href="/"
+                    href="/#institucional/nossas-lojas"
                     aria-label="Ir para a página de nossas lojas"
                     title="Lojas"
                   >
@@ -200,7 +200,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-bran4 text-xs leading-[18px] font-normal"
-                    href="/"
+                    href="/#institucional/endereço"
                     aria-label="Ir para a página de endereços"
                     title="Endereço"
                   >

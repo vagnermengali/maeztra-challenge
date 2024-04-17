@@ -30,7 +30,7 @@ const SlideBrands = () => {
         }}
       >
         <SwiperSlide className="flex items-center justify-center">
-          <Link href="/" aria-label="Ir para a coleção Comma" title="Comma">
+          <Link href="/#comma" aria-label="Ir para a coleção Comma" title="Comma">
             <Image
               src="/assets/images/brand-1.webp"
               width="308"
@@ -40,7 +40,7 @@ const SlideBrands = () => {
           </Link>
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center">
-          <Link href="/" aria-label="Ir para a coleção Melissa" title="Melissa">
+          <Link href="/#melissa" aria-label="Ir para a coleção Melissa" title="Melissa">
             <Image
               src="/assets/images/brand-2.webp"
               width="307"
@@ -51,7 +51,7 @@ const SlideBrands = () => {
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center">
           <Link
-            href="/"
+            href="/#forever-21"
             aria-label="Ir para a coleção Forever21"
             title="Forever21"
           >
@@ -64,7 +64,7 @@ const SlideBrands = () => {
           </Link>
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center">
-          <Link href="/" aria-label="Ir para a coleção Zara" title="Zara">
+          <Link href="/#zara" aria-label="Ir para a coleção Zara" title="Zara">
             <Image
               src="/assets/images/brand-4.webp"
               width="322"
@@ -75,7 +75,7 @@ const SlideBrands = () => {
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center">
           <Link
-            href="/"
+            href="/#ann-taylor"
             aria-label="Ir para a coleção Ann Taylor"
             title="Ann Taylor"
           >

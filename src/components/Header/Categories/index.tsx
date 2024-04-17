@@ -19,7 +19,7 @@ const Categories = ({
       <div className="container flex items-center justify-center gap-[15px]">
         <Link
           onMouseEnter={() => setActiveMenu(null)}
-          href="/"
+          href="/#novidades"
           className="flex items-center justify-center gap-[10px] text-brand1 bg-brand10 hover:bg-brand8 transition-all duration-500 ease-in-out w-[146px] py-[14px] text-center leading-5 text-sm font-bold"
           aria-label="Ir para a categoria de novidades"
           title="Novidades"
@@ -62,7 +62,7 @@ const Categories = ({
         ))}
         <Link
           onMouseEnter={() => setActiveMenu(null)}
-          href="/"
+          href="/#outlet"
           className="text-brand4 bg-brand10 hover:bg-brand8 transition-all duration-500 ease-in-out w-[146px] py-[14px] text-center leading-5 text-sm font-normal"
           aria-label="Ir para a categoria de Outlet"
           title="Outlet"
