@@ -34,16 +34,42 @@ const PopUp = () => {
     return re.test(String(email).toLowerCase());
   };
 
+  /*   useEffect(() => {
+      const storedValue = localStorage.getItem("show-popup");
+      setShowPopUp(storedValue ? JSON.parse(storedValue) : true);
+  
+      return () => {
+        if (!storedValue) {
+          document.body.style.overflow = "";
+        }
+      };
+    }, []); */
+
   useEffect(() => {
     const storedValue = localStorage.getItem("show-popup");
-    setShowPopUp(storedValue ? JSON.parse(storedValue) : true);
+    if (storedValue) {
+      setShowPopUp(false)
+    } else {
+      const handleScroll = () => {
+        const scrollPosition = window.scrollY;
 
-    return () => {
-      if (!storedValue) {
-        document.body.style.overflow = "";
+        const scrollPixelsToShow = 200;
+
+        if (scrollPosition > scrollPixelsToShow) {
+          setShowPopUp(true);
+          window.removeEventListener("scroll", handleScroll);
+        }
+      };
+
+      if (!showPopUp) {
+        window.addEventListener("scroll", handleScroll);
       }
-    };
-  }, []);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
+  }, [showPopUp]);
 
   useEffect(() => {
     if (showPopUp) {
@@ -108,9 +134,8 @@ const PopUp = () => {
                       onSubmit={handleSubmit}
                     >
                       <input
-                        className={`px-[14px] w-full text-brand7 text-xs leading-5 placeholder:text-brand7 placeholder:text-xs placeholder:leading-5 bg-brand10 border-[1px] border-brand11 border-solid rounded-[5px] md:rounded-[10px] h-10 outline-none ${
-                          validEmail ? "" : "border-red-500"
-                        }`}
+                        className={`px-[14px] w-full text-brand7 text-xs leading-5 placeholder:text-brand7 placeholder:text-xs placeholder:leading-5 bg-brand10 border-[1px] border-brand11 border-solid rounded-[5px] md:rounded-[10px] h-10 outline-none ${validEmail ? "" : "border-red-500"
+                          }`}
                         placeholder="Digite seu e-mail"
                         value={email}
                         onChange={handleChange}
