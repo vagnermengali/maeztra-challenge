@@ -49,14 +49,14 @@ const SlideProducts = () => {
         }}
       >
         {Products.map((product, index) => (
-          <SwiperSlide id={product.id.toString()} key={index}>
+          <SwiperSlide key={index}>
             <Link href={product.link} aria-label={`Ir para o produto ${product.title}`} title={product.title}>
               <div>
                 <Image src={product.image} alt={product.title} width="308" height="381" />
                 <div className="flex flex-col gap-2 pt-2 pb-4 px-[27px]">
                   <div  className="flex gap-2">
                     {product.sku.map((sku, index) => (
-                      <button className="w-[27px] h-[27px] rounded border-[1px] border-solid border-transparent hover:border-brand2 transition-all duration-500 ease-in-out" id={sku.id.toString()} key={index} style={{ backgroundColor: sku.color }} aria-label={` Selecionar a cor ${sku.name}`} title={sku.name}></button>
+                      <button className="w-[27px] h-[27px] rounded border-[1px] border-solid border-transparent hover:border-brand2 transition-all duration-500 ease-in-out" key={index} style={{ backgroundColor: sku.color }} aria-label={` Selecionar a cor ${sku.name}`} title={sku.name}></button>
                     ))}
                   </div>
                   <div className="flex flex-col gap-2">
