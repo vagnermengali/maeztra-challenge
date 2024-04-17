@@ -27,8 +27,9 @@ const MainBanner = () => {
                 <Image
                   className="w-screen min-h-[320px] object-cover md:min-h-[600px]"
                   src={banner.imageUrl}
-                  width={1920}
-                  height={600}
+                  width="1920"
+                  height="600"
+                  sizes="100vw"
                   alt="Promoções de Outono"
                   priority={index == 0 ? true : false}
                   loading={index == 0 ? "eager" : "lazy"}
