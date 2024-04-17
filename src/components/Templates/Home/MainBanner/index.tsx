@@ -22,7 +22,10 @@ const MainBanner = () => {
       >
         {Banners.map((banner, index) => (
           <SwiperSlide key={index}>
-            <Link href="/#outuno-inverno" aria-label="Ir para a promoções de outono">
+            <Link
+              href="/#outuno-inverno"
+              aria-label="Ir para a promoções de outono"
+            >
               <div className="relative">
                 <Image
                   className="flex sm:hidden w-screen min-h-[320px] object-cover md:min-h-[600px]"

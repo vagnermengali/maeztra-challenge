@@ -117,7 +117,7 @@ const Header = () => {
             </button>
             <Link href="/" aria-label="Ir para a página inicial">
               <Image
-                className="w-[110px] h-[12px] md:w-[147px] md:h-[18px]"
+                className="w-[110px] h-[12px] min-w-[110px] md:min-w-[147px] md:w-[147px] md:h-[18px]"
                 src="/assets/images/logo-maeztra.webp"
                 width="147"
                 height="18"
@@ -125,7 +125,7 @@ const Header = () => {
               />
             </Link>
           </div>
-          <Search className="hidden lg:flex" />
+          <Search className="hidden lg:flex w-[-webkit-fill-available] px-6 xl:px-14 2xl:px-[93px] max-w-[977px]" />
           <div className="flex items-center gap-0 lg:gap-4 xl:gap-8">
             <button aria-label="Abrir seção de pesquisa" className="block lg:hidden" onClick={handleSearchVisible}>
               <Icon

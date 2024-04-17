@@ -30,7 +30,11 @@ const SlideBrands = () => {
         }}
       >
         <SwiperSlide className="flex items-center justify-center">
-          <Link href="/#comma" aria-label="Ir para a coleção Comma" title="Comma">
+          <Link
+            href="/#comma"
+            aria-label="Ir para a coleção Comma"
+            title="Comma"
+          >
             <Image
               src="/assets/images/brand-1.webp"
               loading="lazy"
@@ -41,7 +45,11 @@ const SlideBrands = () => {
           </Link>
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center">
-          <Link href="/#melissa" aria-label="Ir para a coleção Melissa" title="Melissa">
+          <Link
+            href="/#melissa"
+            aria-label="Ir para a coleção Melissa"
+            title="Melissa"
+          >
             <Image
               src="/assets/images/brand-2.webp"
               loading="lazy"

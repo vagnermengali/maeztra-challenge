@@ -16,6 +16,6 @@ const Home = () => {
       <Newsletter />
     </div>
   );
-}
+};
 
 export default Home;

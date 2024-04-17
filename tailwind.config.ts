@@ -18,6 +18,7 @@ const config: Config = {
           lg: "1024px",
           xl: "1280px",
           "2xl": "1536px",
+          "3xl": "1600px",
         },
       },
       screens: {
@@ -26,6 +27,7 @@ const config: Config = {
         lg: "1024px",
         xl: "1280px",
         "2xl": "1536px",
+        "3xl": "1600px",
       },
       colors: {
         brand1: "#FAA500",
@@ -85,8 +87,8 @@ const config: Config = {
         "minicart-out": "minicart-out 0.5s forwards",
       },
       backgroundImage: {
-        'arrow-x': "url('/assets/icons/arrowX.svg')",
-      }
+        "arrow-x": "url('/assets/icons/arrowX.svg')",
+      },
     },
   },
   plugins: [],

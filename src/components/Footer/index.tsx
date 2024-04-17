@@ -69,8 +69,9 @@ const Footer = () => {
                   ))}
               </div>
               <ul
-                className={`flex flex-col gap-4 md:gap-6 ${infoMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
-                  }`}
+                className={`flex flex-col gap-4 md:gap-6 ${
+                  infoMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
+                }`}
               >
                 <li>
                   <Link
@@ -130,8 +131,9 @@ const Footer = () => {
                   ))}
               </div>
               <ul
-                className={`flex flex-col gap-4 md:gap-6 ${accountMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
-                  }`}
+                className={`flex flex-col gap-4 md:gap-6 ${
+                  accountMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
+                }`}
               >
                 <li>
                   <Link
@@ -181,8 +183,9 @@ const Footer = () => {
                   ))}
               </div>
               <ul
-                className={`flex flex-col gap-4 md:gap-6 ${locationMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
-                  }`}
+                className={`flex flex-col gap-4 md:gap-6 ${
+                  locationMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
+                }`}
               >
                 <li>
                   <Link
