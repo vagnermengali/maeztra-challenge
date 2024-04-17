@@ -62,18 +62,16 @@ const Menu = ({
   return (
     <>
       <div
-        className={`${
-          !isMobile ? "hidden" : isMenu ? "block" : "hidden"
-        } fixed inset-0 bg-brand3 z-40 transition-all duration-500 ease-in-out`}
+        className={`${!isMobile ? "hidden" : isMenu ? "block" : "hidden"
+          } fixed inset-0 bg-brand3 z-40 transition-all duration-500 ease-in-out`}
         onClick={handleMenu}
       ></div>
       <div
-        className={` ${
-          !isMobile ? "hidden" : isMenu ? "animate-menu-in" : "hidden"
-        } fixed top-0 bottom-0 left-0 z-50 bg-brand10 w-80 md:w-96`}
+        className={` ${!isMobile ? "hidden" : isMenu ? "animate-menu-in" : "hidden"
+          } fixed top-0 bottom-0 left-0 z-50 bg-brand10 w-80 md:w-96`}
       >
-        <div className="relative overflow-y-scroll flex flex-col h-full">
-          <div className="sticky right-0 py-6 bg-brand1 px-4 top-0 flex justify-between w-full border-b-2 border-solid border-brand8 pb-3">
+        <div className="relative overflow-y-scroll flex flex-col h-full pb-[72px]">
+          <div className="sticky z-50 right-0 py-6 bg-brand1 px-4 top-0 flex justify-between w-full border-b-2 border-solid border-brand8 pb-3">
             <div className="flex flex-col gap-4">
               <Link
                 className="flex items-center gap-2 text-brand10 font-semibold text-sm"
@@ -117,9 +115,8 @@ const Menu = ({
                   ))}
               </div>
               <ul
-                className={`w-full py-4 px-4 border-b-[1px] border-solid border-brand8 flex flex-col gap-4 ${
-                  menu.open ? "block" : !isMobile ? "flex" : "hidden"
-                }`}
+                className={`w-full py-4 px-4 border-b-[1px] border-solid border-brand8 flex flex-col gap-4 ${menu.open ? "block" : !isMobile ? "flex" : "hidden"
+                  }`}
               >
                 {menu.links.map(
                   (
@@ -128,11 +125,10 @@ const Menu = ({
                   ) => (
                     <li key={linkIndex}>
                       <Link
-                        className={`leading-5 text-sm ${
-                          link.label == "Ver tudo"
+                        className={`leading-5 text-sm ${link.label == "Ver tudo"
                             ? "font-bold uppercase underline"
                             : "font-normal"
-                        }`}
+                          }`}
                         href={link.href}
                         aria-label={`Ir para ${link.label}`}
                         title={link.label}
@@ -162,17 +158,17 @@ const Menu = ({
           >
             Novidades
           </Link>
-          <div className="sticky bottom-0 left-0 py-6 px-7 bg-brand9 w-full">
-            <Link
-              className="flex flex-row items-center gap-2 text-brand4 font-semibold text-base"
-              href="/institucional/fale-conosco"
-              aria-label="Ir para a página fale conosco"
-              title="Fale conosco"
-              onClick={handleMenu}
-            >
-              <Icon id="Message" width="20" height="20" /> Fale conosco
-            </Link>
-          </div>
+        </div>
+        <div className="sticky bottom-0 left-0 py-6 px-7 bg-brand9 w-full">
+          <Link
+            className="flex flex-row items-center gap-2 text-brand4 font-semibold text-base"
+            href="/institucional/fale-conosco"
+            aria-label="Ir para a página fale conosco"
+            title="Fale conosco"
+            onClick={handleMenu}
+          >
+            <Icon id="Message" width="20" height="20" /> Fale conosco
+          </Link>
         </div>
       </div>
     </>
