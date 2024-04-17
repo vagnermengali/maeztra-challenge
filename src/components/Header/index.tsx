@@ -109,6 +109,7 @@ const Header = () => {
         <div className="container flex items-center justify-between h-[88px]">
           <div className="flex items-center justify-start gap-[15px]">
             <button
+              aria-label="Abrir menu"
               className="block lg:hidden cursor-pointer"
               onClick={handleMenu}
             >
@@ -126,7 +127,7 @@ const Header = () => {
           </div>
           <Search className="hidden lg:flex" />
           <div className="flex items-center gap-0 lg:gap-4 xl:gap-8">
-            <button className="block lg:hidden" onClick={handleSearchVisible}>
+            <button aria-label="Abrir seção de pesquisa" className="block lg:hidden" onClick={handleSearchVisible}>
               <Icon
                 id="Magnifier"
                 width="32"
