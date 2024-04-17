@@ -40,7 +40,7 @@ const Newsletter = () => {
             onSubmit={handleSubmit}
           >
             <input
-              className={`px-6 w-[204px] sm:w-full text-brand4 text-sm leading-5 placeholder:text-brand4 placeholder:text-sm placeholder:leading-5 bg-brand10 border-t-[1px] border-r-[1px]  sm:border-r-0 border-l-[1px] border-b-[1px] border-solid rounded-[4px] sm:rounded-none sm:rounded-s-[4px] md:rounded-s-[10px] h-[26px] sm:h-10 outline-none ${
+              className={`px-6 w-[204px] sm:w-full text-brand4 text-sm leading-5 placeholder:text-brand4 placeholder:text-sm placeholder:leading-5 bg-brand10 border-t-[1px] border-r-[1px]  sm:border-r-0 border-l-[1px] border-b-[1px] border-solid rounded-[4px] sm:rounded-none sm:rounded-s-[4px] h-[26px] sm:h-10 outline-none ${
                 submitted
                   ? "border-green-500"
                   : validEmail
