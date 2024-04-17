@@ -29,6 +29,7 @@ const MainBanner = () => {
                   src={banner.imageUrl}
                   width="1920"
                   height="600"
+                  sizes="100vw"
                   alt="Promoções de Outono"
                   priority={index == 0 ? true : false}
                   loading={index == 0 ? "eager" : "lazy"}
