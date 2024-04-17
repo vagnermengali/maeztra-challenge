@@ -69,9 +69,8 @@ const Footer = () => {
                   ))}
               </div>
               <ul
-                className={`flex flex-col gap-4 md:gap-6 ${
-                  infoMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
-                }`}
+                className={`flex flex-col gap-4 md:gap-6 ${infoMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
+                  }`}
               >
                 <li>
                   <Link
@@ -131,9 +130,8 @@ const Footer = () => {
                   ))}
               </div>
               <ul
-                className={`flex flex-col gap-4 md:gap-6 ${
-                  accountMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
-                }`}
+                className={`flex flex-col gap-4 md:gap-6 ${accountMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
+                  }`}
               >
                 <li>
                   <Link
@@ -183,9 +181,8 @@ const Footer = () => {
                   ))}
               </div>
               <ul
-                className={`flex flex-col gap-4 md:gap-6 ${
-                  locationMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
-                }`}
+                className={`flex flex-col gap-4 md:gap-6 ${locationMenuOpen ? "block" : !isMobile ? "flex" : "hidden"
+                  }`}
               >
                 <li>
                   <Link
@@ -259,10 +256,18 @@ const Footer = () => {
               target="_blank"
             >
               <Image
+                className="hidden md:flex"
                 src="/assets/images/vtex.webp"
                 alt="Logo Vtex"
                 width="68"
-                height="48"
+                height="46"
+              />
+              <Image
+                className="flex md:hidden"
+                src="/assets/images/vtex-mobile.webp"
+                alt="Logo Vtex"
+                width="68"
+                height="49"
               />
             </Link>
             <Link
@@ -272,9 +277,17 @@ const Footer = () => {
               target="_blank"
             >
               <Image
+                className="hidden md:flex"
                 src="/assets/images/maeztra.webp"
                 alt="Logo Maeztra"
-                width="129"
+                width="120"
+                height="49"
+              />
+              <Image
+                className="flex md:hidden"
+                src="/assets/images/maeztra-mobile.webp"
+                alt="Logo Vtex"
+                width="120"
                 height="49"
               />
             </Link>

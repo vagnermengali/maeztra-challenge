@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Collection = () => {
   return (
-    <section className="mb-5 md:mb-[39px] mt-[4.5px] md:mt-8">
+    <section className="pb-5 md:pb-[39px] pt-[4.5px] md:pt-8">
       <div className="container flex flex-col lg:flex-row items-center justify-start lg:justify-between gap-6 lg:gap-16">
         <div className="flex flex-col gap-4 max-w-full lg:max-w-sm xl:max-w-[420px]">
           <h5 className="text-brand2 text-2xl leading-9 font-bold">

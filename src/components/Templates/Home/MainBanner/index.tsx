@@ -25,7 +25,17 @@ const MainBanner = () => {
             <Link href="/#outuno-inverno" aria-label="Ir para a promoções de outono">
               <div className="relative">
                 <Image
-                  className="w-screen min-h-[320px] object-cover md:min-h-[600px]"
+                  className="flex sm:hidden w-screen min-h-[320px] object-cover md:min-h-[600px]"
+                  src={banner.imageUrlMobile}
+                  width="1920"
+                  height="600"
+                  sizes="100vw"
+                  alt="Promoções de Outono"
+                  priority={index == 0 ? true : false}
+                  loading={index == 0 ? "eager" : "lazy"}
+                />
+                <Image
+                  className="hidden sm:flex w-screen min-h-[320px] object-cover md:min-h-[600px]"
                   src={banner.imageUrl}
                   width="1920"
                   height="600"

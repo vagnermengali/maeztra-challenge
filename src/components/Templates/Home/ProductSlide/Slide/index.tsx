@@ -22,6 +22,10 @@ const SlideProducts = () => {
             slidesPerView: 1.15,
             spaceBetween: 15,
           },
+          390: {
+            slidesPerView: 1.3,
+            spaceBetween: 15,
+          },
           450: {
             slidesPerView: 1.5,
             spaceBetween: 15,

@@ -6,7 +6,7 @@ const ProductSlide = () => {
             <h4 className="text-brand4 font-bold text-center text-2xl leading-9 md:text-[32px] md:leading-[48px]">
                 As Mais Pedidas
             </h4>
-            <div className="container">
+            <div className="container pr-0 sm:pr-[18px]">
                 <SlideProducts />
             </div>
         </section>

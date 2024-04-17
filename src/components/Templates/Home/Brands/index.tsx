@@ -6,7 +6,7 @@ const Brands = () => {
       <h3 className="font-bold text-brand4 text-2xl md:text-[32px] leading-9 md:leading-[48px] text-center">
         Marcas Parceiras
       </h3>
-      <div className="container">
+      <div className="container pr-0 sm:pr-[18px]">
         <SlideBrands />
       </div>
     </section>

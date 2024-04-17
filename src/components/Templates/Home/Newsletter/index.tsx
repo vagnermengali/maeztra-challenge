@@ -29,7 +29,7 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="bg-brand9 py-6 border-t-2 border-brand8 border-solid mt-5 md:mt-[39px] -z-10">
+    <section className="bg-brand9 py-6 border-t-2 border-brand8 border-solid pt-5 md:pt-[39px] -z-10">
       <div className="container flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-14">
         <h6 className="text-brand2 text-2xl leading-9 font-bold">
           Recebe Nossa Newsletter

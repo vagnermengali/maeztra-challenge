@@ -6,7 +6,7 @@ const Benefits = () => {
       <h2 className="font-bold text-brand4 text-base leading-6 text-center">
         Por que comprar na Maeztra?
       </h2>
-      <div className="container">
+      <div className="container pr-0 sm:pr-[18px]">
         <SlideBenefits />
       </div>
     </section>
