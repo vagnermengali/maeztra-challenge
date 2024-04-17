@@ -87,7 +87,7 @@ const config: Config = {
         "minicart-out": "minicart-out 0.5s forwards",
       },
       backgroundImage: {
-        "arrow-x": "url('/assets/icons/arrowX.svg')",
+        "arrow-x": "url('https://github.com/vagnermengali/maeztra-challenge/blob/main/public/arrowX.svg')",
       },
     },
   },
