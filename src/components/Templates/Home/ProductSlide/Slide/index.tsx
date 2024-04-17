@@ -52,7 +52,7 @@ const SlideProducts = () => {
           <SwiperSlide key={index}>
             <Link href={product.link} aria-label={`Ir para o produto ${product.title}`} title={product.title}>
               <div>
-                <Image src={product.image} alt={product.title} width="308" height="381" />
+                <Image src={product.image} alt={product.title} width="308" height="381" loading="lazy" />
                 <div className="flex flex-col gap-2 pt-2 pb-4 px-[27px]">
                   <div  className="flex gap-2">
                     {product.sku.map((sku, index) => (

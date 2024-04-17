@@ -33,6 +33,7 @@ const SlideBrands = () => {
           <Link href="/#comma" aria-label="Ir para a coleção Comma" title="Comma">
             <Image
               src="/assets/images/brand-1.webp"
+              loading="lazy"
               width="308"
               height="64"
               alt="Marca Comma"
@@ -43,6 +44,7 @@ const SlideBrands = () => {
           <Link href="/#melissa" aria-label="Ir para a coleção Melissa" title="Melissa">
             <Image
               src="/assets/images/brand-2.webp"
+              loading="lazy"
               width="307"
               height="64"
               alt="Marca Melissa"
@@ -57,6 +59,7 @@ const SlideBrands = () => {
           >
             <Image
               src="/assets/images/brand-3.webp"
+              loading="lazy"
               width="308"
               height="64"
               alt="Marca Forever21"
@@ -67,6 +70,7 @@ const SlideBrands = () => {
           <Link href="/#zara" aria-label="Ir para a coleção Zara" title="Zara">
             <Image
               src="/assets/images/brand-4.webp"
+              loading="lazy"
               width="322"
               height="67"
               alt="Marca Zara"
@@ -81,6 +85,7 @@ const SlideBrands = () => {
           >
             <Image
               src="/assets/images/brand-5.webp"
+              loading="lazy"
               width="307"
               height="64"
               alt="Marca Ann Taylor"

@@ -6,9 +6,9 @@ const Collection = () => {
     <section className="mb-5 md:mb-[39px] mt-[4.5px] md:mt-8">
       <div className="container flex flex-col lg:flex-row items-center justify-start lg:justify-between gap-6 lg:gap-16">
         <div className="flex flex-col gap-4 max-w-full lg:max-w-sm xl:max-w-[420px]">
-          <h4 className="text-brand2 text-2xl leading-9 font-bold">
+          <h5 className="text-brand2 text-2xl leading-9 font-bold">
             Out/Inverno
-          </h4>
+          </h5>
           <p className="text-brand2 text-sm leading-5 font-normal">
             Descubra o charme do inverno com nossa nova coleção. Dos casacos de
             lã aos elegantes sobretudos, cada peça é uma mistura perfeita de
@@ -27,6 +27,7 @@ const Collection = () => {
             width="1114"
             height="480"
             alt="Nova coleção de outono-inverno"
+            loading="lazy"
           />
         </Link>
       </div>
