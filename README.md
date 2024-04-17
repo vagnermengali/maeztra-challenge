@@ -10,7 +10,7 @@
 
 ---
 
-# Documentação em Português
+# Documentação
 
 Este é um portfólio desenvolvido para beneficiar desenvolvedores que ainda não têm seu próprio portfólio ou desenvolvedores que desejam um portfólio pronto. Foi criado para fins de estudo utilizando as seguintes tecnologias: Next.js, TypeScript, Tailwind CSS, @emailjs/browser, Swiper, React Hook Form, Framer Motion, React tsparticles, Yup, SweetAlert2 e React Countup.
 
