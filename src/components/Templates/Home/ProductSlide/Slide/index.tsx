@@ -39,6 +39,10 @@ const SlideProducts = () => {
             spaceBetween: 15,
           },
           1280: {
+            slidesPerView: 4.5,
+            spaceBetween: 15,
+          },
+          1636: {
             slidesPerView: 5,
             spaceBetween: 15,
           },
