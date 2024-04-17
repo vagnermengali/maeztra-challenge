@@ -69,6 +69,12 @@ Acesse a aplicação no seu navegador através do seguinte endereço: [http://lo
 
 Este projeto está disponível em:
 
-[Deploy Vercel](https://maeztra-challenge-vagnermengali.vercel.app/)
-
-[Deploy GitHub](https://maeztra-challenge-vagnermengali.vercel.app/)
+<div>
+ <a href="https://maeztra-challenge-vagnermengali.vercel.app/">
+  Deploy Vercel
+ </a>
+ &nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="https://maeztra-challenge-vagnermengali.vercel.app/">
+  Deploy GitHub
+ </a>
+</div>
