@@ -34,17 +34,6 @@ const PopUp = () => {
     return re.test(String(email).toLowerCase());
   };
 
-  /*   useEffect(() => {
-      const storedValue = localStorage.getItem("show-popup");
-      setShowPopUp(storedValue ? JSON.parse(storedValue) : true);
-  
-      return () => {
-        if (!storedValue) {
-          document.body.style.overflow = "";
-        }
-      };
-    }, []); */
-
   useEffect(() => {
     const storedValue = localStorage.getItem("show-popup");
     if (storedValue) {
