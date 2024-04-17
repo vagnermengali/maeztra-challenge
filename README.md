@@ -2,11 +2,15 @@
  Teste técnico Maeztra
 </h1>
 
-<div align="center">
-  <!-- <img src='https://github.com/vagnermengali/developer-blue-portfolio/blob/main/public/perfomace.webp'/> -->
-</div>
+<a href="https://maeztra-challenge-vagnermengali.vercel.app/" title="Clique para visitar o site">
+    <img src="https://github.com/vagnermengali/maeztra-challenge/blob/main/public/assets/images/banner-github.png" alt="Banner site">
+</a>
 
-<!-- [![Banner](https://github.com/vagnermengali/developer-green-portfolio/blob/main/public/portfolio-green.webp)](https://developer-green-portfolio-vagnermengali.vercel.app/) -->
+--- 
+
+<a href="https://pagespeed.web.dev/analysis/https-maeztra-challenge-vagnermengali-vercel-app/mn4y34335r?form_factor=desktop" title="Clique para analisar a performance">
+    <img src="https://github.com/vagnermengali/maeztra-challenge/blob/main/public/assets/images/perfomace-github.png" alt="Banner perfomace">
+</a>
 
 ---
 
