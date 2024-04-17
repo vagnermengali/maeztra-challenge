@@ -6,11 +6,23 @@
     <img src="https://github.com/vagnermengali/maeztra-challenge/blob/main/public/assets/images/banner-github.png" alt="Banner site">
 </a>
 
+<div align="center">
+ <a align="center" href="https://maeztra-challenge-vagnermengali.vercel.app/" title="Clique para analisar a performance">
+  Confira o site
+ </a>
+</div>
+
 --- 
 
-<a href="https://pagespeed.web.dev/analysis/https-maeztra-challenge-vagnermengali-vercel-app/mn4y34335r?form_factor=desktop" title="Clique para analisar a performance">
+<a href="https://pagespeed.web.dev/analysis/https-maeztra-challenge-vagnermengali-vercel-app/mn4y34335r?form_factor=desktop" title="Clique para ver o site">
     <img src="https://github.com/vagnermengali/maeztra-challenge/blob/main/public/assets/images/perfomace-github.png" alt="Banner perfomace">
 </a>
+
+<div align="center">
+ <a align="center" href="https://pagespeed.web.dev/analysis/https-maeztra-challenge-vagnermengali-vercel-app/mn4y34335r?form_factor=desktop" title="Clique para analisar a performance">
+  Confira a performance
+ </a>
+</div>
 
 ---
 
