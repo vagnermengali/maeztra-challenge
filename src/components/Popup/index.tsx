@@ -69,7 +69,7 @@ const PopUp = () => {
             >
               Fechar
             </button>
-            <div className="bg-brand10 w-full h-full flex flex-row justify-between">
+            <div className="bg-brand10 w-full h-full flex flex-row justify-between lg:max-h-[533px]">
               <Image
                 className="w-1/2 hidden lg:flex"
                 src="/assets/images/newsletter.webp"
