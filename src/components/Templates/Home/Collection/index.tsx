@@ -28,6 +28,7 @@ const Collection = () => {
             height="480"
             alt="Nova coleção de outono-inverno"
             loading="lazy"
+            sizes="(max-width: 640px) 98.125vw,(max-width: 768px) 704px, (max-width: 1024px) 732px, (max-width: 1280px) 540px, (max-width: 1536px) 760px, (min-width: 1536px) 1016px"
           />
         </Link>
       </div>
