@@ -15,7 +15,7 @@ const Icon = ({
       height={height ?? size}
       strokeWidth={strokeWidth}
     >
-      <use href={`/assets/icons/sprites.svg#${id}`} />
+      <use href={`./assets/icons/sprites.svg#${id}`} />
     </svg>
   );
 };
