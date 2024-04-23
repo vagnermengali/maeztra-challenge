@@ -2,7 +2,7 @@
   Maeztra Challenge
 </h1>
 
-[![Banner](https://github.com/vagnermengali/maeztra-challenge/blob/main/public/assets/images/perfomace-github.png)](https://pagespeed.web.dev/analysis/https-maeztra-challenge-vagnermengali-vercel-app/mn4y34335r?form_factor=desktop)
+[![Banner](https://github.com/vagnermengali/developer-blue-portfolio/blob/main/public/perfomace.webp)](https://pagespeed.web.dev/analysis/https-maeztra-challenge-vagnermengali-vercel-app/mn4y34335r?form_factor=desktop)
 
 [![Banner](https://github.com/vagnermengali/maeztra-challenge/blob/main/public/assets/images/banner-github.png)](https://vagnermengali.github.io/maeztra-challenge/)
 
